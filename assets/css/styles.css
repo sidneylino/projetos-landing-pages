@@ -7,7 +7,7 @@
         padding-right: 100px;
     }
     .padding-top {
-        padding-top: 80px;
+        padding-top: 100px;
     }
     .padding-bottom {
         padding-bottom: 10px;
@@ -17,8 +17,9 @@
         background-image: url(../img/backgrounds/bg-main.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size:150%;
-        height: 240px;
+        background-size:140%;
+        background-position: 15% 7%;
+        height: 300px;
     }
 
     .bg-decimo {
