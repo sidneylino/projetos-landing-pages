@@ -45,6 +45,28 @@
         background-repeat: no-repeat;
         background-image: linear-gradient(to top, transparent -50%, #000000 100%), url(../img/backgrounds/horaextra.webp);
     }
+    .bg-footer{
+        background-image: url(../img/backgrounds/perfil-advogado.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:150% 100%;
+        height: 400px;
+    }
+    .bg-footer h2{
+        font-size: 20px;
+    }
+    .bg-footer h4{
+        font-size: 15px;
+    }
+    .bg-footer h3{
+        font-size: 15px;
+    }
+    .mobile {
+        width: 20px;
+    }
+    .font-mobile h3{
+        font-size: 14px;
+    }
 }
 
 
@@ -67,11 +89,63 @@
         background-size:100%;
         height: 300px;
     }
+    .bg-decimo {
+        opacity: 0.9;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to left, transparent 0%, #000000 100%), url(../img/backgrounds/13-salario.jpg);
+    }
+    .bg-decimo:hover { opacity: 1 }
+    
+    .bg-fgts {
+        opacity: 0.9;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to left, transparent 0%, #000000 100%), url(../img/backgrounds/fgts.jpg);
+    }
+    .bg-fgts:hover { opacity: 1 }
+
+
+    .bg-ferias {
+        opacity: 0.9;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to right, transparent 0%, #000000 100%), url(../img/backgrounds/ferias.jpg);
+    }
+    .bg-ferias:hover { opacity: 1 }
+
+
+    .bg-hora {
+        opacity: 0.9;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to left, transparent 0%, #000000 100%), url(../img/backgrounds/horaextra.webp);
+    }
+    .bg-hora:hover { opacity: 1 }
+
+    .bg-footer{
+        background-image: url(../img/backgrounds/perfil-advogado.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:130% 100%;
+        height: 700px;
+    }
 }
 
 
 
-@media only screen and (min-width: 1024px) and (max-width: 1380px){
+@media only screen and (min-width: 1024px) and (max-width: 1719px){
+    .bg-nav {
+        opacity: 0.8;
+        transition: opacity 500ms 0ms ease-in-out;
+    }
+    .bg-nav:hover { opacity: 10 }
+
+    /* 1 section */
     .font{
         display: block;
         text-align: center;
@@ -91,34 +165,168 @@
         height: 400px;
     }
 
+    /* 2 section*/
+
+    .bg-profile {
+        
+    }
+
+    /* 3 section*/
     .bg-decimo {
-        opacity: 0.5;
+        opacity: 0.9;
         transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to left, transparent -50%, #000000 100%), url(../img/backgrounds/13-salario.jpg);
+        background-image: linear-gradient(to left, transparent 0%, #000000 100%), url(../img/backgrounds/13-salario.jpg);
     }
-    .bg-decimo:hover { opacity: 10 }
+    .bg-decimo:hover { opacity: 1 }
     
     .bg-fgts {
+        opacity: 0.9;
+        transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to left, transparent -50%, #000000 100%), url(../img/backgrounds/fgts.jpg);
+        background-image: linear-gradient(to left, transparent 0%, #000000 100%), url(../img/backgrounds/fgts.jpg);
     }
+    .bg-fgts:hover { opacity: 1 }
+
 
     .bg-ferias {
+        opacity: 0.9;
+        transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to left, transparent -50%, #000000 100%), url(../img/backgrounds/ferias.jpg);
+        background-image: linear-gradient(to right, transparent 0%, #000000 100%), url(../img/backgrounds/ferias.jpg);
     }
+    .bg-ferias:hover { opacity: 1 }
+
 
     .bg-hora {
+        opacity: 0.9;
+        transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to left, transparent -50%, #000000 100%), url(../img/backgrounds/horaextra.webp);
+        background-image: linear-gradient(to left, transparent 0%, #000000 100%), url(../img/backgrounds/horaextra.webp);
     }
+    .bg-hora:hover { opacity: 1 }
+
+    .bg-footer{
+        background-image: url(../img/backgrounds/perfil-advogado.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:100% 100%;
+        height: 700px;
+    }
+
 }
-@media (min-width: 1381px) { 
+
+
+
+
+
+
+@media (min-width: 1720px) { 
+    .bg-nav {
+        opacity: 0.8;
+        transition: opacity 500ms 0ms ease-in-out;
+    }
+    .bg-nav:hover { opacity: 1 }
+
+    /* 1 section */
+    .font{
+        display: block;
+        text-align: center;
+        font-size: 34px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    .padding-top {
+        padding-top: 340px;
+    }
+
+    .bg-main {
+        background-image: linear-gradient(to bottom, transparent 0%, #000000 100%), url(../img/backgrounds/bg-main.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:100%;
+        height: 600px;
+    }
+
+    /* 2 section*/
+
+    .bg-profile {
+        margin-bottom: 40px;
+        
+    }
+
+    /* 3 section*/
+    .bg-direitos-tela-grande {
+        padding-right: 350px;
+        padding-left: 350px;
+    }
+
+    .bg-decimo {
+        opacity: 0.8;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to left, transparent 0%, #6c757d 100%), url(../img/backgrounds/13-salario.jpg);
+    }
+    .bg-decimo:hover { opacity: 1 }
+    
+    .bg-fgts {
+        opacity: 0.8;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to right, transparent 0%, #6c757d 100%), url(../img/backgrounds/fgts.jpg);
+    }
+    .bg-fgts:hover { opacity: 1 }
+
+
+    .bg-ferias {
+        opacity: 0.8;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to left, transparent 0%, #6c757d 100%), url(../img/backgrounds/ferias.jpg);
+    }
+    .bg-ferias:hover { opacity: 1 }
+
+
+    .bg-hora {
+        opacity: 0.8;
+        transition: opacity 500ms 0ms ease-in-out;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to right, transparent 0%, #6c757d 100%), url(../img/backgrounds/horaextra.webp);
+    }
+    .bg-hora:hover { opacity: 1 }
+
+    .p-tela-grande {
+        padding-bottom: 50px;
+    }
+
+    .bg-footer{
+        background-image: linear-gradient(to top, transparent 0%, #6c757d 100%), url(../img/backgrounds/perfil-advogado\ -\ Copia.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:100% 100%;
+        height: 800px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+    h4 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    li {
+        font-size: 25px;
+    }
 
 }
 
