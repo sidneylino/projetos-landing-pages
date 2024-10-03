@@ -7,7 +7,7 @@
         padding-right: 100px;
     }
     .padding-top {
-        padding-top: 100px;
+        padding-top: 150px;
     }
     .padding-bottom {
         padding-bottom: 10px;
@@ -17,8 +17,8 @@
         background-image: url(../img/backgrounds/bg-main.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size:140%;
-        background-position: 15% 7%;
+        background-size:170%;
+        background-position: 50% 7%;
         height: 300px;
     }
 
@@ -272,7 +272,8 @@
         transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to left, transparent 50%, #6c757d 100%), url(../img/backgrounds/13-salario.jpg);
+        background-image: linear-gradient(to left, transparent 50%, #000000 100%), url(../img/backgrounds/13-salario.jpg);
+
     }
     .bg-decimo:hover { opacity: 1 }
     
@@ -281,7 +282,7 @@
         transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to right, transparent 50%, #6c757d 200%), url(../img/backgrounds/fgts.jpg);
+        background-image: linear-gradient(to right, transparent 50%, #000000 200%), url(../img/backgrounds/fgts.jpg);
     }
     .bg-fgts:hover { opacity: 1 }
 
@@ -291,7 +292,7 @@
         transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to left, transparent 50%, #6c757d 200%), url(../img/backgrounds/ferias.jpg);
+        background-image: linear-gradient(to left, transparent 50%, #000000 200%), url(../img/backgrounds/ferias.jpg);
     }
     .bg-ferias:hover { opacity: 1 }
 
@@ -301,7 +302,7 @@
         transition: opacity 500ms 0ms ease-in-out;
         background-size:100% 100%;
         background-repeat: no-repeat;
-        background-image: linear-gradient(to right, transparent 50%, #6c757d 100%), url(../img/backgrounds/horaextra.webp);
+        background-image: linear-gradient(to right, transparent 50%, #000000 100%), url(../img/backgrounds/horaextra.webp);
     }
     .bg-hora:hover { opacity: 1 }
 
